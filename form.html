@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="style1(form).css">
+</head>
+<body>
+	<div>
+		<header class="header">
+			<a href="#" id="logo">TO THE NEW</a>
+				<span class=span1>
+					<a href="#">Home</a>
+					<a href="#">Quick Help</a>
+				</span>
+		</header>
+	</div>
+	<hr/>
+	<div class=div1>
+		<form>
+			<div class="div2">
+			BUG REPORT
+			</div>
+			<div class="div3">
+				Title.*<br/>
+				<input type="text" name="title" class="in1"><br/>
+				<br/>
+				Description.*<br/>
+				<textarea class="in1" style="height: 90px;border-width: 2px;"></textarea>
+				<br/>
+				<br/>
+				Operating System:<br/>
+				<select class="select">
+					<option value="windows">Windows</option>
+					<option value="linux">Linux</option>
+					<option value="macosx">mac OS X</option>
+					<option value="ubuntu">ubuntu</option>
+				</select>
+				<br/>
+				<br/>
+				Version:<br/>
+				<input type="text" name="versions" class="in2">
+				<br/>
+				<br/>
+				License:<br/>
+				<span><input type="radio" name="gender" value="free">Free</span>
+				<span style="float: right;"><input type="radio" name="gender" value="business">Buisness</span>
+				<br/>
+				<br/>
+				Severity:<br/>
+				<select class="select">
+					<option value="critical">Critical</option>
+					<option value="Non-critical">Non-Critical</option>
+				</select>
+				<br/>
+				<br/>
+				Attachments:<br/>
+				<input type="file" value="choose file">
+				<br/>
+				<br/>
+			</div>
+			<div class="div4">
+				<span class="span1">
+					<input type="submit" value="submit" class="select">
+				</span>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
